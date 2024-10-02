@@ -21,3 +21,8 @@ Basically, function `hash_password` returns a digest string that can be stored t
 [salt] + SEPARATOR + [digest]
 ```
 where `[digest]` is `pbkdf2-sha256([salt], [password], iter=PBKDF2_ITERATIONS)`.
+
+## Build tests with gcc
+```
+./buid.sh
+```
